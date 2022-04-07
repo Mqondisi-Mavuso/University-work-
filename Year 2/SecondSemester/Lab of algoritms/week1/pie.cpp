@@ -12,7 +12,7 @@ using namespace std;
 double volume[10010];
 int pies;
 
-int friends(double mid) {
+int friends(double mid) {                       // divide each pie by the given mid from binary search
     int count = 0;
     for (int i = 0; i < pies; i++)
         count = count + (int)(volume[i] / mid);
