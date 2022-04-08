@@ -49,6 +49,7 @@ int main()
                 v[temp] = num[i];
                 lds[i] = temp + 1;
             }
+            
         }
 
         int max = 0;
