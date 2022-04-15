@@ -5,7 +5,6 @@
 #
 # Note: Maximum number of values to be sorted (N) is 999 numbers.
 #
-# Author: Benjapol Worakan (benwrk)
 #
 	.data
 space:	.asciiz " "		# a space string.
