@@ -23,6 +23,7 @@
 		la $a0, name		# load address of the name to the $a0 register
 		syscall
 		
+		
 		li $v1, 4
 		la $a0, age		# load the address of the call to the $a0 register
 		syscall
