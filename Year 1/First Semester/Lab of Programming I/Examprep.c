@@ -9,6 +9,7 @@ int main (void)
     scanf("%d", &test_cases);
 
     while (count < test_cases)
+
     {
         scanf("%d", &num_coordinates);
         int xArray[num_coordinates], yArray[num_coordinates];
