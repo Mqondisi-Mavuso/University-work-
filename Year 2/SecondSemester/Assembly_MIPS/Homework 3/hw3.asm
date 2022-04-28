@@ -34,6 +34,7 @@ end_loop_input:
 	
         # calling sort prep to begin sorting our filled array
         jal sort_prep
+	
 # loop to print array values
 loop_print:
         beq $t0, $a1, exit
