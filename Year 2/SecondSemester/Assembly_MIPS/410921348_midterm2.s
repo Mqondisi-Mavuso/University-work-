@@ -1,6 +1,6 @@
 	.data
 line  :  .asciiz "#################################################################################################\n"
-prompt: .asciiz "Welcome to your MIPS calculator\nEnter the operands and operators and start calculation by =. \nEach operator and operand should be on newline. \na new line will be automatically added after Operator. \nPress Enter after every operand. \nNo spaces\ne.g ì14 / + / 6 / */ 3 / = /î (symbol ì/î indicates next line not input): \n"
+prompt: .asciiz "Welcome to your MIPS calculator\nEnter the operands and operators and start calculation by =. \nEach operator and operand should be on newline. \na new line will be automatically added after Operator. \nPress Enter after every operand. \nNo spaces\ne.g ‚Äú14 / + / 6 / */ 3 / = /‚Äù (symbol ‚Äú/‚Äù indicates next line not input): \n"
 instruction :  .asciiz "(+) for addition\n(-) for Sutraction\n(*) for multiplication\n(/) for division\n(%) for modulus\n"
 invalidOp :   .asciiz "\nError!!!Invalid operator entered'\n"
 promptNum: .asciiz "Enter integer: "
@@ -165,6 +165,7 @@ print_end:
 	li $v0, 1
 	move $a0, $a3
 	syscall
+	
 	
 	j end	
 	
