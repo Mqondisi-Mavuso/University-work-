@@ -13,6 +13,7 @@ bool cmp(pair<double, double> a, pair<double, double> b) {
         return a.first < b.first;
 }
  
+
 int main() {
     int n;                      // number of sprinklers 
     double p, r;                // position, radius
