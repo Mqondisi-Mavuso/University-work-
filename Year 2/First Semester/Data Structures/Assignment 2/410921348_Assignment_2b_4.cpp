@@ -21,7 +21,7 @@ class Node
 class Stack
 {
     public :
-        inline Stack() : top(NULL), counts(0) {}
+        inline Stack() : top(NULL), counts( 0 ) {}
         int push(char d)
         {
             Node *node = new Node() ;
