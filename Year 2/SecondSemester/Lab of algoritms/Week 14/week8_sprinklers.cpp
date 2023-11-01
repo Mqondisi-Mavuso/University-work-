@@ -8,6 +8,7 @@ using namespace std;
  
 bool cmp(pair<double, double> a, pair<double, double> b) {
     if (a.first == b.first)
+     
         return a.second > b.second;
     else
         return a.first < b.first;
